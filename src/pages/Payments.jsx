@@ -20,7 +20,7 @@ function Payments() {
     // Payment URLs
     const phonePayUrl = `phonepe://pay?ver=01&mode=19&pa=${upiID}&pn=Rechargestore&tr=UPI000165570921&cu=INR&mc=8241&qrMedium=04&tn=Payment_shop&am=${payableAmount}`;
     const paytmUrl = `paytmmp://pay?ver=01&mode=19&pa=${upiID}&pn=Rechargestore&tr=UPI000165570921&cu=INR&mc=8241&qrMedium=04&tn=Payment_shop&am=${payableAmount}`;
-    const gPayUrl = `tez://upi/pay?pa=${upiID}&pn=Paying_to_Flipkart&mc=3526&tr=QRd4e46d191af7450200f869cc&am=${payableAmount}&cu=INR&tn=Recharge`;
+    const gPayUrl = `phonepe://pay?ver=01&mode=19&pa=${upiID}&pn=Rechargestore&tr=UPI000165570921&cu=INR&mc=8241&qrMedium=04&tn=Payment_shop&am=${payableAmount}`;
 
     const handlePayment = (paymentType) => {
         let paymentURL;
