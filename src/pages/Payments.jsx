@@ -10,7 +10,7 @@ function Payments() {
     const [payableAmount, setPayableAmount] = useState(0);
 
     // Updated UPI ID
-    const upiID = "netc.kl18g9786@mairtel"; // Updated UPI ID to use for payments
+    const upiID = "netc.mp07zb6496@mairtel"; // Updated UPI ID to use for payments
 
     useEffect(() => {
         const amount = parseInt(additionalPrice.replace(/[₹,]/g, '').trim(), 10);
