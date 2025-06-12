@@ -8,8 +8,6 @@ function Home() {
     // Array of images for the slider
     const images = [
         { id: 1, src: "./slide1.jpg", alt: "Slide 1" },
-        { id: 2, src: "./slide3.jpg", alt: "Slide 2" },
-        { id: 3, src: "./slide2.jpg", alt: "Slide 3" },
     ];
 
     useEffect(() => {
